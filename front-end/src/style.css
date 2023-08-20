@@ -1,0 +1,42 @@
+.gradient-custom {
+background: #ffffff;
+background: -webkit-linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 236, 210, 1));
+background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 236, 210, 1))
+}
+
+.carousel-indicators li {
+  background-color: #282828;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+}
+
+#searchbox{
+  height: 45px;
+  width: 425px;
+  margin-bottom: 15px;
+  padding: 10px
+  border: none;
+}
+  
+.search-container {
+  display: flex; /* Display children in a row */
+  align-items: center; /* Vertically align children */
+}
+
+.btnl {
+  background: linear-gradient(45deg, #3F4DA8, #937BE0);
+  color: white;
+  border: none;
+  height: 50px;
+  margin-left: 10px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.btnl:hover {
+  background: linear-gradient(45deg, #937BE0, #3F4DA8);
+}
