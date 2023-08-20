@@ -8,7 +8,7 @@ Daily forecasts for the next few days with temperature and date information.
 Installation
 Clone the repository to your local machine:
 
-git clone https://github.com/your-username/weather-app.git
+git clone https://github.com/amansingh331/weather-app.git
 Navigate to the project directory:
 
 cd weather-app
